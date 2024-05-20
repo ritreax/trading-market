@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { FaBitcoin } from 'react-icons/fa';
 
 function Icerik2() {
   const [data, setData] = useState([]);
@@ -45,7 +44,7 @@ function Icerik2() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {data.map((item) => (
             <div key={item.id} className="flex items-center bg-gray-600 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 rounded-lg p-4 text-white font-sans shadow-md">
-              <FaBitcoin className="text-4xl text-orange-500 mr-4" />
+              <img src="././src/assets/adel.png" alt="" width={40} className='mr-4'/>
               <div className="flex flex-col">
                 <div className="text-xl font-bold">{item.code}</div>
                 <div className="text-2xl">{item.stockname} - {item.lastprice} - {item.volume}</div>
