@@ -106,7 +106,7 @@ function Register() {
               <p className="mt-6 text-sm text-center text-gray-200">
                 Hesabınız var mı?{" "}
                 <a
-                  href="#"
+                  href="/login"
                   className="text-blue-500 focus:outline-none focus:underline hover:underline"
                 >
                   Giriş Yap

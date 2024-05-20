@@ -1,10 +1,11 @@
 import axios from 'axios';
 import React, { useState } from 'react';
+import { useCookies } from 'react-cookie';
 import { useNavigate } from 'react-router-dom';
 
 function Login() {
   const [data, setData] = useState({
-    email: "",
+    userName: "",
     password: ""
   });
   const navigate = useNavigate(); 
@@ -19,7 +20,8 @@ function Login() {
       const response = await axios.post("http://213.142.148.111:5000/api/Login", data);
       if (response.status === 200 && response.data.success) {  
         alert("Doğru giriş");
-        navigate("/anasayfa"); 
+        setCookie('token', response.data.jwttoken) // şu jwt token kısmına apiden gelen tokenin name ini basıcaksın
+        navigate("/home"); 
       } else {
         alert("Hatalı giriş yaptınız");
       }
@@ -28,6 +30,8 @@ function Login() {
       console.error("There was an error logging in!", error);
     }
   };
+
+  const [cookies, setCookie, removeCookie] = useCookies(['token']);
 
   return (
     <div className="dark:bg-gray-900">
@@ -66,10 +70,10 @@ function Login() {
                   </label>
                   <input
                     onChange={handleChange}
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Email"
+                    type="text"
+                    name="userName"
+                    id="userName"
+                    placeholder="Kullanıcı Adı"
                     className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                   />
                 </div>
@@ -109,7 +113,7 @@ function Login() {
               <p className="mt-6 text-sm text-center text-gray-200">
                 Henüz hesabınız yok mu?{" "}
                 <a
-                  href="#"
+                  href="/register"
                   className="text-blue-500 focus:outline-none focus:underline hover:underline"
                 >
                   Kayıt Ol
