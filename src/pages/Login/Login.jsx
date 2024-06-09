@@ -19,28 +19,21 @@ function Login() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        'http://213.142.148.111:5000/api/Login',
-        JSON.stringify({
-          userName: data.userName,
-          password: data.password
-        }),
+        `http://213.142.148.111:5000/api/Login?userName=${data.userName}&password=${data.password}`,
+        {}, // empty body
         {
           headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
           }
         }
       );
-      console.log(response.data);
-      if (response.status === 200 && response.data.success) {
-        alert("Login successful");
-        setCookie('token', response.data.jwttoken);
-        navigate("/home");
-      } else {
-        alert("Invalid login credentials");
-      }
+
+      navigate('/');
+
     } catch (error) {
-      alert("There was an error logging in!");
-      console.error("Error:", error.response || error.message || error);
+      console.error('Login error:', error);
+      alert('An error occurred during login');
     }
   };
 
