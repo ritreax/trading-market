@@ -26,7 +26,7 @@ function content() {
                 Eğitim
               </h2>
               <p className="leading-relaxed text-base">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                TradingMarket'in eğitim setini kullanın, finans dünyasında öne geçin. Uzman finanscılarımız tarafından detaylı eğitim setimiz, profesyonel olarak çekilmiş videolarımız ve gelişimini takip etmeniz için tuttuğumuz hocalarımıza ulaşmak için eğitim sayfamıza uğrayın.
               </p>
 
             </div>
@@ -51,7 +51,7 @@ function content() {
                 Sertfika
               </h2>
               <p className="leading-relaxed text-base">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                TradingMarket'tan alacağınız sertfika sayesinde iş dünyasında kolayca yer edinebilir, kendinizi farkettirebilir ve yükselebilirsiniz. Doğru yatırımlar ile öne geçin.
               </p>
 
             </div>
@@ -75,7 +75,7 @@ function content() {
                 TradingView Partner
               </h2>
               <p className="leading-relaxed text-base">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+              Önde gelen finansal analiz ve ticaret platformlarından TradingView ile stratejik bir partnerlik anlaşmamız var. Bu iş birliği sayesinde kullanıcılarımız, TradingView’in gelişmiş grafik ve analiz araçlarından, gerçek zamanlı piyasa verilerinden ve geniş yatırımcı topluluğundan faydalanabilecekler.
               </p>
             </div>
           </div>

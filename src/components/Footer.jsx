@@ -18,13 +18,13 @@ function Footer() {
                   <h2 class="mb-3 text-sm font-medium tracking-widest text-gray-100 uppercase title-font">Mehmet Ali Çuhacı</h2>
                   <nav class="mb-10 list-none">
                     <li class="mt-3">
-                      <a class="text-gray-400 cursor-pointer hover:text-gray-600">Linkedin</a>
+                      <a href="https://www.linkedin.com/in/mehmet-ali-%C3%A7uhac%C4%B1-14835923b/" class="text-gray-400 cursor-pointer hover:text-gray-600">Linkedin</a>
                     </li>
                     <li class="mt-3">
-                      <a class="text-gray-400 cursor-pointer hover:text-gray-600">Instagram</a>
+                      <a href="https://www.instagram.com/mhmettali/" class="text-gray-400 cursor-pointer hover:text-gray-600">Instagram</a>
                     </li>
                     <li class="mt-3">
-                      <a class="text-gray-400 cursor-pointer hover:text-gray-600">Github</a>
+                      <a href="https://github.com/mehmetcuhaci" class="text-gray-400 cursor-pointer hover:text-gray-600">Github</a>
                     </li>
                   </nav>
                 </div>
@@ -32,13 +32,13 @@ function Footer() {
                   <h2 class="mb-3 text-sm font-medium tracking-widest text-gray-100 uppercase title-font">Betül Dura</h2>
                   <nav class="mb-10 list-none">
                     <li class="mt-3">
-                      <a class="text-gray-400 cursor-pointer hover:text-gray-600">Linkedin</a>
+                      <a href="https://www.linkedin.com/in/bet%C3%BCl-dura-95bb51257" class="text-gray-400 cursor-pointer hover:text-gray-600">Linkedin</a>
                     </li>
                     <li class="mt-3">
-                      <a class="text-gray-400 cursor-pointer hover:text-gray-600">Instagram</a>
+                      <a href="https://www.instagram.com/betulduraa/" class="text-gray-400 cursor-pointer hover:text-gray-600">Instagram</a>
                     </li>
                     <li class="mt-3">
-                      <a class="text-gray-400 cursor-pointer hover:text-gray-600">Github</a>
+                      <a href="https://github.com/" class="text-gray-400 cursor-pointer hover:text-gray-600">Github</a>
                     </li>
                   </nav>
                 </div>
@@ -47,13 +47,13 @@ function Footer() {
                   </h2>
                   <nav class="mb-10 list-none">
                     <li class="mt-3">
-                      <a class="text-gray-400 cursor-pointer hover:text-gray-600">Linkedin</a>
+                      <a href="https://www.linkedin.com/in/furkan-g%C3%BCndo%C4%9Fan-869850309/" class="text-gray-400 cursor-pointer hover:text-gray-600">Linkedin</a>
                     </li>
                     <li class="mt-3">
-                      <a class="text-gray-400 cursor-pointer hover:text-gray-600">Instagram</a>
+                      <a href="https://www.instagram.com/xfrkn14/" class="text-gray-400 cursor-pointer hover:text-gray-600">Instagram</a>
                     </li>
                     <li class="mt-3">
-                      <a class="text-gray-400 cursor-pointer hover:text-gray-600">Github</a>
+                      <a href="https://github.com/ritreax" class="text-gray-400 cursor-pointer hover:text-gray-600">Github</a>
                     </li>
                   </nav>
                 </div>
@@ -61,13 +61,13 @@ function Footer() {
                   <h2 class="mb-3 text-sm font-medium tracking-widest text-gray-100 uppercase title-font">Erhan Bal</h2>
                   <nav class="mb-10 list-none">
                     <li class="mt-3">
-                      <a class="text-gray-400 cursor-pointer hover:text-gray-600">Linkedin</a>
+                      <a href="https://www.linkedin.com/in/erhan-bal-4826a02a6/" class="text-gray-400 cursor-pointer hover:text-gray-600">Linkedin</a>
                     </li>
                     <li class="mt-3">
-                      <a class="text-gray-400 cursor-pointer hover:text-gray-600">Instagram</a>
+                      <a href="https://www.instagram.com/eran.bl?igsh=eml5N25rZXMzZHB3" class="text-gray-400 cursor-pointer hover:text-gray-600">Instagram</a>
                     </li>
                     <li class="mt-3">
-                      <a class="text-gray-400 cursor-pointer hover:text-gray-600">Github</a>
+                      <a href="https://github.com/ErhanBal" class="text-gray-400 cursor-pointer hover:text-gray-600">Github</a>
                     </li>
                   </nav>
                 </div>

@@ -11,7 +11,7 @@ function Navbar() {
             href="/"
             className="text-3xl text-white font-medium"
           >
-            TradeMarket
+            <img src="./src/assets/tm-Logo-beyaz.png" alt="" width="40"/>
           </a>
           <button
             className="text-white cursor-pointer leading-none px-3 py-1 md:hidden outline-none focus:outline-none"

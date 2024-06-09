@@ -15,10 +15,9 @@ function Team() {
                                                 Mehmet Ali Çuhacı
                                             </h2>
                                             <p className="text-lg font-light space-y-0 mb-0 ">
-                                                <a href="https://www.linkedin.com" className='block text-white hover:text-blue-500'>Linkedin</a>
-                                                <a href="https://www.linkedin.com" className='block text-white hover:text-blue-500'>Instagram</a>
-                                                <a href="https://www.linkedin.com" className='block text-white hover:text-blue-500'>Website</a>
-                                                <a href="https://www.linkedin.com" className='block text-white hover:text-blue-500'>Github</a>
+                                                <a href="https://www.linkedin.com/in/mehmet-ali-%C3%A7uhac%C4%B1-14835923b/" className='block text-white hover:text-blue-500'>Linkedin</a>
+                                                <a href="https://www.instagram.com/mhmettali/" className='block text-white hover:text-blue-500'>Instagram</a>
+                                                <a href="https://github.com/mehmetcuhaci" className='block text-white hover:text-blue-500'>Github</a>
                                             </p>
                                         </div>
                                     </div>
@@ -37,10 +36,9 @@ function Team() {
                                                 Betül Dura
                                             </h2>
                                             <p className="text-lg font-light space-y-0 mb-0 ">
-                                                <a href="https://www.linkedin.com" className='block text-white hover:text-blue-500'>Linkedin</a>
-                                                <a href="https://www.linkedin.com" className='block text-white hover:text-blue-500'>Instagram</a>
-                                                <a href="https://www.linkedin.com" className='block text-white hover:text-blue-500'>Website</a>
-                                                <a href="https://www.linkedin.com" className='block text-white hover:text-blue-500'>Github</a>
+                                                <a href="https://www.linkedin.com/in/bet%C3%BCl-dura-95bb51257/" className='block text-white hover:text-blue-500'>Linkedin</a>
+                                                <a href="https://www.instagram.com/betulduraa/" className='block text-white hover:text-blue-500'>Instagram</a>
+                                                <a href="https://www.github.com" className='block text-white hover:text-blue-500'>Github</a>
                                             </p>
                                         </div>
                                     </div>
@@ -60,10 +58,9 @@ function Team() {
                                                 Furkan Gündoğan
                                             </h2>
                                             <p className="text-lg font-light space-y-0 mb-0 ">
-                                                <a href="https://www.linkedin.com" className='block text-white hover:text-blue-500'>Linkedin</a>
-                                                <a href="https://www.linkedin.com" className='block text-white hover:text-blue-500'>Instagram</a>
-                                                <a href="https://www.linkedin.com" className='block text-white hover:text-blue-500'>Website</a>
-                                                <a href="https://www.linkedin.com" className='block text-white hover:text-blue-500'>Github</a>
+                                                <a href="https://www.linkedin.com/in/furkan-g%C3%BCndo%C4%9Fan-869850309/" className='block text-white hover:text-blue-500'>Linkedin</a>
+                                                <a href="https://www.instagram.com/xfrkn14/" className='block text-white hover:text-blue-500'>Instagram</a>
+                                                <a href="https://github.com/ritreax" className='block text-white hover:text-blue-500'>Github</a>
                                             </p>
                                         </div>
                                     </div>
@@ -83,10 +80,9 @@ function Team() {
                                                 Erhan Bal
                                             </h2>
                                             <p className="text-lg font-light space-y-0 mb-0 ">
-                                                <a href="https://www.linkedin.com" className='block text-white hover:text-blue-500'>Linkedin</a>
-                                                <a href="https://www.linkedin.com" className='block text-white hover:text-blue-500'>Instagram</a>
-                                                <a href="https://www.linkedin.com" className='block text-white hover:text-blue-500'>Website</a>
-                                                <a href="https://www.linkedin.com" className='block text-white hover:text-blue-500'>Github</a>
+                                                <a href="https://www.linkedin.com/in/erhan-bal-4826a02a6/" className='block text-white hover:text-blue-500'>Linkedin</a>
+                                                <a href="https://www.instagram.com/eran.bl?igsh=eml5N25rZXMzZHB3" className='block text-white hover:text-blue-500'>Instagram</a>
+                                                <a href="https://github.com/ErhanBal" className='block text-white hover:text-blue-500'>Github</a>
                                             </p>
                                         </div>
                                     </div>
