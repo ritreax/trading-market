@@ -29,11 +29,14 @@ function Login() {
         }
       );
 
-      navigate('/');
+      if (response.status === 200) {
+        alert('Başarıyla giriş yaptınız!');
+        navigate('/');
+      }
 
     } catch (error) {
       console.error('Login error:', error);
-      alert('An error occurred during login');
+      alert('Giriş sırasında bir hata oluştu');
     }
   };
 

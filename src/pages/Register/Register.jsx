@@ -1,21 +1,34 @@
 import axios from 'axios';
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+
 function Register() {
-  const [data, setData] = useState(
-    {
-      userName: "",
-      email: "",
-      password: ""
-    }
-  )
+  const [data, setData] = useState({
+    userName: "",
+    email: "",
+    password: ""
+  });
+
+  const navigate = useNavigate();
+
   const handleChange = (e) => {
-    setData((prev) => ({...prev, [e.target.name]: e.target.value }))
-  }
+    setData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await axios.post("http://213.142.148.111:5000/api/users/register/", data);
-    console.log(response)
-  }
+    try {
+      const response = await axios.post("http://213.142.148.111:5000/api/users/register/", data);
+      console.log(response);
+      if (response.status === 200) {
+        alert('Kayıt işlemi başarıyla tamamlandı!');
+        navigate('/login');
+      }
+    } catch (error) {
+      console.error("There was an error registering the user!", error);
+    }
+  };
+
   return (
     <div className="dark:bg-gray-900">
       <div className="flex justify-center h-screen">
